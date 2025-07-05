@@ -139,17 +139,36 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CFHMSEAL
 
+[ProjectVariant1]
+UniqueId=17a0c29b-d140-433d-963e-295dd940c75a
+Description=CAN only
+AllowFabrication=0
+ParameterCount=0
+VariationCount=11
+Variation1=Designator=P1|UniqueId=\YOENFCBP|Kind=1|AlternatePart=
+Variation2=Designator=P2|UniqueId=\VJDTTYDC|Kind=1|AlternatePart=
+Variation3=Designator=P3|UniqueId=\RJOMSYDZ|Kind=1|AlternatePart=
+Variation4=Designator=P5|UniqueId=\GPTEWHKL|Kind=1|AlternatePart=
+Variation5=Designator=P6|UniqueId=\VMPWWLPW|Kind=1|AlternatePart=
+Variation6=Designator=U3|UniqueId=\RDIPCRBK|Kind=1|AlternatePart=
+Variation7=Designator=J3|UniqueId=\EUSKKOJF|Kind=1|AlternatePart=
+Variation8=Designator=C8|UniqueId=\BVQHDFWY|Kind=1|AlternatePart=
+Variation9=Designator=C7|UniqueId=\GGARWYTO|Kind=1|AlternatePart=
+Variation10=Designator=R6|UniqueId=\ADEHAGQG|Kind=1|AlternatePart=
+Variation11=Designator=R7|UniqueId=\GYCKAHWY|Kind=1|AlternatePart=
+ParamVariationCount=0
+
 [Parameter1]
-Name=NomDeLetudiant
-Value=k.cotton
+Name=Revision
+Value=Rev.A
 
 [Parameter2]
 Name=NomDeProjet
-Value=247-616 Pi-CAN
+Value=247-616 Pi-CAN_PWM
 
 [Parameter3]
-Name=Revision
-Value=Rev.B
+Name=NomDeLetudiant
+Value=k.cotton
 
 [Configuration1]
 Name=Sources
