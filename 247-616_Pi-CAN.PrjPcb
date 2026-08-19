@@ -38,7 +38,7 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
+CrossRefSheetStyle=2
 CrossRefLocationStyle=1
 CrossRefPorts=3
 CrossRefCrossSheets=1
@@ -158,17 +158,81 @@ Variation10=Designator=R6|UniqueId=\ADEHAGQG|Kind=1|AlternatePart=
 Variation11=Designator=R7|UniqueId=\GYCKAHWY|Kind=1|AlternatePart=
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.GM
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\247-616_Pi-CAN.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\Design Rule Check - 247-616_Pi-CAN.html
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for 247-616_Pi-CAN\Pick Place for 247-616_Pi-CAN.txt
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Revision
-Value=Rev.A
+Name=NomDeLetudiant
+Value=k.cotton
 
 [Parameter2]
 Name=NomDeProjet
 Value=247-616 Pi-CAN_PWM
 
 [Parameter3]
-Name=NomDeLetudiant
-Value=k.cotton
+Name=Revision
+Value=Rev.B
 
 [Configuration1]
 Name=Sources
@@ -312,16 +376,6 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=SIMetrixNetlist
-OutputName22=SIMetrix
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=SIMPLISNetlist
-OutputName23=SIMPLIS
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -333,16 +387,6 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -433,27 +477,31 @@ Name=Assembly Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Assembly
-OutputName1=Assembly Drawings
+OutputType1=Test Points For Assembly
+OutputName1=Test Point Report
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=Pick Place
-OutputName2=Generates pick and place files
+OutputType2=Wire Bonding Table
+OutputName2=Wire Bonding Table Report
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Test Points For Assembly
-OutputName3=Test Point Report
+OutputType3=Assembly
+OutputName3=Assembly Drawings
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Wire Bonding Table
-OutputName4=Wire Bonding Table Report
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Pick Place
+OutputName4=Generates pick and place files
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
+Configuration4_Name1=ForceUpdateSettings
+Configuration4_Item1=False
+Configuration4_Name2=OutputConfigurationParameter1
+Configuration4_Item2=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Manufacturer2_PN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29,Type:0|Column#18=Name:Supplier Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39,Type:0|Column#19=Name:Manufacturer 3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#20=Name:Rated Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34,Type:0|Column#21=Name:Copyright,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#22=Name:LibRef,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#23=Name:Manufacturer Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#24=Name:Max Working Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30,Type:0|Column#25=Name:Supplier 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38,Type:0|Column#26=Name:Manufacturer 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#27=Name:Manufacturer 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#28=Name:Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42,Type:0|Column#29=Name:CEGEP,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#30=Name:Manufacturer_Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26,Type:0|Column#31=Name:Puissance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33,Type:0|Column#32=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31,Type:0|Column#33=Name:Manufacturer_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27,Type:0|Column#34=Name:Supplier Part Number 2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40,Type:0|Column#35=Name:Revision,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36,Type:0|Column#36=Name:Mounting Technology,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32,Type:0|Column#37=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43,Type:0|Column#38=Name:Dielectric,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#39=Name:Manufacturer Part Number 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#40=Name:Manufacturer Part Number 3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#41=Name:RefDes,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35,Type:0|Column#42=Name:Manufacturer2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28,Type:0|Column#43=Name:Supplier 1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37,Type:0|Column#44=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41,Type:0|DocumentPath=D:\Eco-Stationnement\247-616_PCB-Pi-CAN-main\247-616_Pi-CAN.PcbDoc
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -508,7 +556,7 @@ OutputDefault8=0
 Configuration8_Name1=ForceUpdateSettings
 Configuration8_Item1=False
 Configuration8_Name2=OutputConfigurationParameter1
-Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=2|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=D:\Google Drive\CEGEP Limoilou\__243-336 - Developpement de produits 3 - Dessins et assemblages\projet manette\243-336_MP_PCB-Altium\Imported alpakka\243-336_MP_Manette_mods-LPKF.PcbDoc
+Configuration8_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=2|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=D:\Eco-Stationnement\247-616_PCB-Pi-CAN-main\247-616_Pi-CAN.PcbDoc
 OutputType9=IPC2581
 OutputName9=IPC-2581 Files
 OutputDocumentPath9=
@@ -533,7 +581,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=BWJTUXNY|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=False|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=2|NumberOfDecimals=2|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16908290~1|PlotBoardProfile=False|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=D:\Google Drive\CEGEP Limoilou\__243-336 - Developpement de produits 3 - Dessins et assemblages\projet manette\243-336_MP_PCB-Altium\Imported alpakka\243-336_MP_Manette_mods-LPKF.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=FVQYYYFJ|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=False|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=2|NumberOfDecimals=2|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16908290~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=D:\Eco-Stationnement\247-616_PCB-Pi-CAN-main\247-616_Pi-CAN.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -589,6 +637,11 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+OutputType10=BOM_ReportManufacturing
+OutputName10=Manufacturing Data
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -882,6 +935,9 @@ Type155=1
 Type156=1
 Type157=1
 Type158=1
+Type159=1
+Type160=1
+Type161=1
 
 [Difference Levels]
 Type1=1
@@ -970,6 +1026,8 @@ Type83=1
 Type84=1
 Type85=1
 Type86=1
+Type87=1
+Type88=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1133,6 +1191,10 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
+Type162=1
+Type163=1
+Type164=1
+Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1173,16 +1235,112 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=247-616_Pi-CAN.SCHLIB
-ComponentDesignItemID0=U_PCA9685PW
-ComponentSymbolReference0=U_PCA9685PW
+ComponentLibraryIdentifier0=243-436_MP_Console.SCHLIB
+ComponentDesignItemID0=TP_TH0.61mm(AWG28)
+ComponentSymbolReference0=TP_TH0.61mm(AWG28)
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=247-616_Pi-CAN.SCHLIB
+ComponentDesignItemID1=J_CONN_MICROFIT_8POS
+ComponentSymbolReference1=J_CONN_MICROFIT_8POS
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=247-616_Pi-CAN.SCHLIB
+ComponentDesignItemID2=J_DC_JACK_2.5MM
+ComponentSymbolReference2=J_DC_JACK_2.5MM
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=247-616_Pi-CAN.SCHLIB
+ComponentDesignItemID3=J_HDR_RECEPTACLE_2X20_TH_100mils
+ComponentSymbolReference3=J_HDR_RECEPTACLE_2X20_TH_100mils
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=247-616_Pi-CAN.SCHLIB
+ComponentDesignItemID4=J_TERM_BLOCK_3POS_5mm_MODEL2
+ComponentSymbolReference4=J_TERM_BLOCK_3POS_5mm_MODEL2
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=247-616_Pi-CAN.SCHLIB
+ComponentDesignItemID5=P_HEADER_2POS
+ComponentSymbolReference5=P_HEADER_2POS
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=247-616_Pi-CAN.SCHLIB
+ComponentDesignItemID6=P_HEADER_3POS
+ComponentSymbolReference6=P_HEADER_3POS
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=247-616_Pi-CAN.SCHLIB
+ComponentDesignItemID7=U_MCP2515-SOIC
+ComponentSymbolReference7=U_MCP2515-SOIC
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=247-616_Pi-CAN.SCHLIB
+ComponentDesignItemID8=U_PCA9685PW
+ComponentSymbolReference8=U_PCA9685PW
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=247-616_Pi-CAN.SCHLIB
+ComponentDesignItemID9=U_SN65HVD230DR_SOIC
+ComponentSymbolReference9=U_SN65HVD230DR_SOIC
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=247-616_Pi-CAN.SCHLIB
+ComponentDesignItemID10=Y_XTAL_8MHz_HC49US
+ComponentSymbolReference10=Y_XTAL_8MHz_HC49US
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=TEP_243-Altium_DBLib.DbLib/Cap$
+ComponentDesignItemID11=CAP002
+ComponentSymbolReference11=capacitor
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=TEP_243-Altium_DBLib.DbLib/Cap$
+ComponentDesignItemID12=CAP004
+ComponentSymbolReference12=capacitor
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=TEP_243-Altium_DBLib.DbLib/Cap$
+ComponentDesignItemID13=CAP012
+ComponentSymbolReference13=capacitor
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=TEP_243-Altium_DBLib.DbLib/Res$
+ComponentDesignItemID14=RES001
+ComponentSymbolReference14=resistor
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=TEP_243-Altium_DBLib.DbLib/Res$
+ComponentDesignItemID15=RES014
+ComponentSymbolReference15=resistor
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=TEP_243-Altium_DBLib.DbLib/Res$
+ComponentDesignItemID16=RES015
+ComponentSymbolReference16=resistor
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1202,31 +1360,114 @@ ParameterName1=Comment
 ParameterUpdate1=1
 ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Copyright
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=Manufacturer 1
+ParameterName5=Dielectric
 ParameterUpdate5=1
-ParameterName6=Manufacturer Part Number 1
+ParameterName6=Library Reference
 ParameterUpdate6=1
-ParameterName7=Manufacturer2
+ParameterName7=LibRef
 ParameterUpdate7=1
-ParameterName8=Manufacturer2_PN
+ParameterName8=Manufacturer 1
 ParameterUpdate8=1
-ParameterName9=Mount
+ParameterName9=Manufacturer 2
 ParameterUpdate9=1
-ParameterName10=Supplier 1
+ParameterName10=Manufacturer 3
 ParameterUpdate10=1
-ParameterName11=Supplier Part Number 1
+ParameterName11=Manufacturer Part Number 1
 ParameterUpdate11=1
-ParameterName12=Value
+ParameterName12=Manufacturer Part Number 2
 ParameterUpdate12=1
+ParameterName13=Manufacturer Part Number 3
+ParameterUpdate13=1
+ParameterName14=Manufacturer_Name
+ParameterUpdate14=1
+ParameterName15=Manufacturer_Part_Number
+ParameterUpdate15=1
+ParameterName16=Manufacturer2
+ParameterUpdate16=1
+ParameterName17=Manufacturer2_PN
+ParameterUpdate17=1
+ParameterName18=Max Working Voltage
+ParameterUpdate18=1
+ParameterName19=Mount
+ParameterUpdate19=1
+ParameterName20=Mounting Technology
+ParameterUpdate20=1
+ParameterName21=Puissance
+ParameterUpdate21=1
+ParameterName22=Rated Voltage
+ParameterUpdate22=1
+ParameterName23=RefDes
+ParameterUpdate23=1
+ParameterName24=Revision
+ParameterUpdate24=1
+ParameterName25=Supplier 1
+ParameterUpdate25=1
+ParameterName26=Supplier 2
+ParameterUpdate26=1
+ParameterName27=Supplier Part Number 1
+ParameterUpdate27=1
+ParameterName28=Supplier Part Number 2
+ParameterUpdate28=1
+ParameterName29=Tolerance
+ParameterUpdate29=1
+ParameterName30=Type
+ParameterUpdate30=1
+ParameterName31=Value
+ParameterUpdate31=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=TSSOP28_SOT361-1_V
+ModelName0=C_1608[0603]
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=C_2012[0805]
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=C0603
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=CONN_2068320000-SD_08_MOL
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=CONN_HDR_FEM_2x20pos_100mil
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=J_TERM_BLOCK_3POS_TH_5mm_Model2
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=P_DC-JACK_RA
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=P_HDR_2POS_100MILS_TH
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=P_HDR_3POs_100MILS_TH
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=R_1608[0603]
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=R_3216[1206]
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=SOIC127P599X175-8N
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=SOIC18-1.27-11.5X7.5MM
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=TP_TH061
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=TSSOP28_SOT361-1_V
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=Y_HC-49-US
+ModelUpdate15=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
