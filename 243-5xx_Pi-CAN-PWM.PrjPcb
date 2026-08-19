@@ -179,7 +179,30 @@ UniqueId=17a0c29b-d140-433d-963e-295dd940c75a
 Description=CAN only
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=23
+Variation1=Designator=D1|UniqueId=\FKANVTBN\VAFRWVPF|Kind=1|AlternatePart=
+Variation2=Designator=C8|UniqueId=\FKANVTBN\JSKJHYRE|Kind=1|AlternatePart=
+Variation3=Designator=J4|UniqueId=\FKANVTBN\MDFAFHJP|Kind=1|AlternatePart=
+Variation4=Designator=5V|UniqueId=\FKANVTBN\OHUOBWKI|Kind=1|AlternatePart=
+Variation5=Designator=C7|UniqueId=\FKANVTBN\HGLIWIPX|Kind=1|AlternatePart=
+Variation6=Designator=P1|UniqueId=\FKANVTBN\DMWOIXPN|Kind=1|AlternatePart=
+Variation7=Designator=P2|UniqueId=\FKANVTBN\BGEGMPQS|Kind=1|AlternatePart=
+Variation8=Designator=P3|UniqueId=\FKANVTBN\DNWGXNQG|Kind=1|AlternatePart=
+Variation9=Designator=P4|UniqueId=\FKANVTBN\OXBDMRNB|Kind=1|AlternatePart=
+Variation10=Designator=P5|UniqueId=\FKANVTBN\ONGNRQGG|Kind=1|AlternatePart=
+Variation11=Designator=R4|UniqueId=\FKANVTBN\HXKLHQMD|Kind=1|AlternatePart=
+Variation12=Designator=R5|UniqueId=\FKANVTBN\DWMSSGKJ|Kind=1|AlternatePart=
+Variation13=Designator=R6|UniqueId=\FKANVTBN\NISOOUXO|Kind=1|AlternatePart=
+Variation14=Designator=R7|UniqueId=\FKANVTBN\TFIMVXWR|Kind=1|AlternatePart=
+Variation15=Designator=R8|UniqueId=\FKANVTBN\EVLVTZNW|Kind=1|AlternatePart=
+Variation16=Designator=R9|UniqueId=\FKANVTBN\NEITYXTQ|Kind=1|AlternatePart=
+Variation17=Designator=R10|UniqueId=\FKANVTBN\PXVFKXNZ|Kind=1|AlternatePart=
+Variation18=Designator=R11|UniqueId=\FKANVTBN\SGUIDAQP|Kind=1|AlternatePart=
+Variation19=Designator=R12|UniqueId=\FKANVTBN\KICWZVVD|Kind=1|AlternatePart=
+Variation20=Designator=U3|UniqueId=\FKANVTBN\WOAUCWYS|Kind=1|AlternatePart=
+Variation21=Designator=Vext|UniqueId=\FKANVTBN\BKOFENES|Kind=1|AlternatePart=
+Variation22=Designator=P11|UniqueId=\ZLAVFZGJ\DIORYQAP|Kind=1|AlternatePart=
+Variation23=Designator=P12|UniqueId=\ZLAVFZGJ\UFKIYWDS|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
