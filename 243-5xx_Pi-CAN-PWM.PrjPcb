@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=CAN only
 
 [Preferences]
 PrefsVaultGUID=
@@ -106,7 +107,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=247-616_Pi-CAN.SCHLIB
+DocumentPath=Pi5-Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -120,10 +121,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ABGXRGIH
+DocumentUniqueId=OBBRKEBR
 
 [Document5]
-DocumentPath=247-616_Pi-CAN.PcbLib
+DocumentPath=Ctrl-CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -137,40 +138,73 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=CFHMSEAL
+DocumentUniqueId=GUEEQUZT
+
+[Document6]
+DocumentPath=Ctrl-PWM.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OAXLVMDI
+
+[Document7]
+DocumentPath=PMOD-T3-T6.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XLSAXRKI
 
 [ProjectVariant1]
 UniqueId=17a0c29b-d140-433d-963e-295dd940c75a
 Description=CAN only
 AllowFabrication=0
 ParameterCount=0
-VariationCount=11
-Variation1=Designator=P1|UniqueId=\YOENFCBP|Kind=1|AlternatePart=
-Variation2=Designator=P2|UniqueId=\VJDTTYDC|Kind=1|AlternatePart=
-Variation3=Designator=P3|UniqueId=\RJOMSYDZ|Kind=1|AlternatePart=
-Variation4=Designator=P5|UniqueId=\GPTEWHKL|Kind=1|AlternatePart=
-Variation5=Designator=P6|UniqueId=\VMPWWLPW|Kind=1|AlternatePart=
-Variation6=Designator=U3|UniqueId=\RDIPCRBK|Kind=1|AlternatePart=
-Variation7=Designator=J3|UniqueId=\EUSKKOJF|Kind=1|AlternatePart=
-Variation8=Designator=C8|UniqueId=\BVQHDFWY|Kind=1|AlternatePart=
-Variation9=Designator=C7|UniqueId=\GGARWYTO|Kind=1|AlternatePart=
-Variation10=Designator=R6|UniqueId=\ADEHAGQG|Kind=1|AlternatePart=
-Variation11=Designator=R7|UniqueId=\GYCKAHWY|Kind=1|AlternatePart=
+VariationCount=14
+Variation1=Designator=P1|UniqueId=\KLHPXCEC|Kind=1|AlternatePart=
+Variation2=Designator=P2|UniqueId=\HAVJXQMF|Kind=1|AlternatePart=
+Variation3=Designator=P3|UniqueId=\IWFIXDWZ|Kind=1|AlternatePart=
+Variation4=Designator=P5|UniqueId=\CXUSGCYZ|Kind=1|AlternatePart=
+Variation5=Designator=U3|UniqueId=\RDIPCRBK|Kind=1|AlternatePart=
+Variation6=Designator=C8|UniqueId=\JFIRGLPG|Kind=1|AlternatePart=
+Variation7=Designator=C7|UniqueId=\PYJMEVTR|Kind=1|AlternatePart=
+Variation8=Designator=R6|UniqueId=\WLHGNYVE|Kind=1|AlternatePart=
+Variation9=Designator=R7|UniqueId=\KETTNQXK|Kind=1|AlternatePart=
+Variation10=Designator=P11|UniqueId=\SPYKTEQM|Kind=1|AlternatePart=
+Variation11=Designator=P12|UniqueId=\BZBLXDQW|Kind=1|AlternatePart=
+Variation12=Designator=P4|UniqueId=\WWZXNZEV|Kind=1|AlternatePart=
+Variation13=Designator=D1|UniqueId=\RCUBSVTM|Kind=1|AlternatePart=
+Variation14=Designator=J4|UniqueId=\NEVGSLYE|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=
-Value=
-
-[Parameter2]
 Name=Revision
 Value=Rev.B
 
-[Parameter3]
+[Parameter2]
 Name=NomDeProjet
 Value=243-5xx Pi-CAN_PWM
 
-[Parameter4]
+[Parameter3]
 Name=NomDeLetudiant
 Value=Cégep Limoilou
 
